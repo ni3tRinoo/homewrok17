@@ -133,15 +133,59 @@ table {
   border-spacing: 0;
 }
 
-body {
+.head {
   background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+  color: white;
 }
-
-.sites {
+.head .sites {
   width: 25px;
 }
+.head .avatar {
+  margin-top: 25px;
+  margin-left: 163px;
+  width: 258.9px;
+  height: 100px;
+}
+.head .h1-2 {
+  margin-top: 10px;
+  margin-left: 163px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head .h1-1 {
+  margin-left: 163px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 149px;
+  margin-bottom: 10px;
+}
+.head .freccia {
+  margin-left: 170px;
+  width: 152px;
+  height: 40px;
+}
 
-.background {
-  width: 100%;
-  height: 100%;
+.menu .h1-under1 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin-top: 75px;
+}
+.menu .h1-under {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+.menu .bird {
+  margin-left: 39%;
+}
+.menu .name {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 24px;
 }
