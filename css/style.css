@@ -141,7 +141,16 @@ table {
   color: white;
 }
 .head .sites {
-  width: 25px;
+  position: absolute;
+  left: 90%;
+  bottom: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.head .sites .fa {
+  font-size: 50px;
+  margin-top: 25px;
 }
 .head .avatar {
   margin-top: 25px;
@@ -167,6 +176,13 @@ table {
   width: 152px;
   height: 40px;
 }
+.head .man-avatar {
+  position: absolute;
+  left: 50%;
+  margin-top: 12.5px;
+  width: 717px;
+  height: 600px;
+}
 
 .menu .h1-under1 {
   display: flex;
@@ -188,4 +204,19 @@ table {
   margin-top: 16px;
   font-weight: 400;
   font-size: 24px;
+}
+
+button {
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  width: 260px;
+  height: 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #26c7ea;
+  margin-left: 163px;
+  margin-top: 45px;
 }

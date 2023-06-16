@@ -5,8 +5,21 @@
     height: 950px;
     color: white;
 
+
+
     .sites {
-        width: 25px;
+        position: absolute;
+        left: 90%;
+        bottom: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        .fa {
+            font-size: 50px;
+            margin-top: 25px;
+        }
     }
 
     .avatar {
@@ -37,10 +50,13 @@
         height: 40px;
     }
 
-    
-   
-   
-   
+    .man-avatar {
+        position: absolute;
+        left: 50%;
+        margin-top: 12.5px;
+        width: 717px;
+        height: 600px;
+    }
 }
 
 .menu {
@@ -68,4 +84,23 @@
         font-weight: 400;
         font-size: 24px;
     }
+}
+
+button {
+    background: #0b0e66;
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0px;
+
+    width: 260px;
+    height: 80px;
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #26c7ea;
+
+    margin-left: 163px;
+    margin-top: 45px;
 }

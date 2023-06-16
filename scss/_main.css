@@ -1,0 +1,85 @@
+.head {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+  color: white;
+}
+.head .sites {
+  width: 25px;
+}
+.head .sites {
+  position: absolute;
+  left: 90%;
+  bottom: 40%;
+  width: auto;
+  height: auto;
+}
+.head .avatar {
+  margin-top: 25px;
+  margin-left: 163px;
+  width: 258.9px;
+  height: 100px;
+}
+.head .h1-2 {
+  margin-top: 10px;
+  margin-left: 163px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head .h1-1 {
+  margin-left: 163px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 149px;
+  margin-bottom: 10px;
+}
+.head .freccia {
+  margin-left: 170px;
+  width: 152px;
+  height: 40px;
+}
+.head .man-avatar {
+  position: absolute;
+  left: 50%;
+  margin-top: 12.5px;
+  width: 717px;
+  height: 600px;
+}
+
+.menu .h1-under1 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin-top: 75px;
+}
+.menu .h1-under {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+.menu .bird {
+  margin-left: 39%;
+}
+.menu .name {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+button {
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  width: 260px;
+  height: 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #26c7ea;
+  margin-left: 163px;
+  margin-top: 45px;
+}
